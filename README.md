@@ -1,412 +1,328 @@
-# AI-B1-1-Yang
-양선재
-공통 질문:**2022년부터 2026년 까지 전기차 배터리 화재에 관련한 기사와 논문들에 관한 정보를 도출하고 모든 자료들을 가장 인기가 많은 순으로 정리해**
+Q: 2022년부터 2026년까지 전기차 화재 관련 논문과 기사를 수집한 후, 가장 인기가 많은 순으로 나열해 줘
 
-답변
+Gemini 3.1 pro (x1.5)
 
-**Chat gpt:**
-<html>
-<body>
-<!--StartFragment--><html><head></head><body><p>2022년부터 2026년까지의 <strong>전기차(EV) 배터리 화재 및 열폭주(Thermal Runaway)</strong> 관련 자료를 단순히 나열하는 것보다, <strong>학계에서 인용도가 높고 영향력이 큰 논문</strong>과 <strong>사회적 파급력이 컸던 기사</strong>를 구분하여 정리하는 것이 연구에 훨씬 도움이 됩니다.</p><p>아래는 <strong>인기도(논문의 경우 인용도·게재 저널 영향력, 기사의 경우 조회수·언론 영향력 및 업계 파급력)</strong>를 종합하여 정리한 자료입니다.</p><hr><h1>Ⅰ. 가장 영향력이 큰 논문 (2022~2026)</h1>
-순위 | 논문 | 발행연도 | 중요도
--- | -- | -- | --
-1 | A review of thermal runaway prevention and mitigation strategies for lithium-ion batteries | 2022 | ★★★★★
-2 | Thermal behaviour and thermal runaway propagation in lithium-ion battery systems – A critical review | 2023 | ★★★★★
-3 | Thermal Runaway in Lithium-Ion Batteries: A Review of Mechanisms, Prediction Approaches, and Mitigation Strategies | 2026 | ★★★★★
-4 | Unplugging the truth: an empirical analysis of 417 fires of electric vehicles | 2026 | ★★★★★
-5 | Thermal Behavior of Lithium- and Sodium-Ion Batteries | 2022 | ★★★★☆
-6 | BattBee: Equivalent Circuit Modeling and Early Detection | 2025 | ★★★★☆
-7 | Deep Learning Methods for Detecting Thermal Runaway Events | 2025 | ★★★★☆
+안녕하세요! 전기차 화재 관련 자료를 찾고 계시는군요. 최근 매우 중요하게 다뤄지는 시의적절한 연구 주제를 고르셨네요! 👏
 
-<h2>경진대회·논문 작성 시 특히 추천하는 핵심 참고문헌</h2><p>연구의 신뢰성과 최신성을 높이기 위해 다음 다섯 편을 우선 참고하는 것을 권장드립니다.</p><ol><li><p><strong>A review of thermal runaway prevention and mitigation strategies for lithium-ion batteries</strong> (2022) (<a href="https://www.sciencedirect.com/science/article/pii/S2590174522001337?utm_source=chatgpt.com" title="A review of thermal runaway prevention and mitigation strategies for lithium-ion batteries - ScienceDirect">ScienceDirect</a>)</p></li><li><p><strong>Thermal behaviour and thermal runaway propagation in lithium-ion battery systems – A critical review</strong> (2023) (<a href="https://www.sciencedirect.com/science/article/pii/S2352152X23002918?utm_source=chatgpt.com" title="Thermal behaviour and thermal runaway propagation in lithium-ion battery systems – A critical review - ScienceDirect">ScienceDirect</a>)</p></li><li><p><strong>Thermal Runaway in Lithium-Ion Batteries: A Review of Mechanisms, Prediction Approaches, and Mitigation Strategies</strong> (2026) (<a href="https://www.mdpi.com/2313-0105/12/3/88?utm_source=chatgpt.com" title="Thermal Runaway in Lithium-Ion Batteries: A Review of Mechanisms, Prediction Approaches, and Mitigation Strategies">MDPI</a>)</p></li><li><p><strong>Unplugging the truth: an empirical analysis of 417 fires of electric vehicles and the limitations of battery safety regulations</strong> (2026) (<a href="https://www.sciencedirect.com/science/article/pii/S2405829726001686?utm_source=chatgpt.com" title="Unplugging the truth: an empirical analysis of 417 fires of electric vehicles and the limitations of battery safety regulations - ScienceDirect">ScienceDirect</a>)</p></li><li><p><strong>BattBee: Equivalent Circuit Modeling and Early Detection of Thermal Runaway Triggered by Internal Short Circuits for Lithium-Ion Batteries</strong> (2025) (<a href="https://arxiv.org/abs/2506.13577?utm_source=chatgpt.com" title="BattBee: Equivalent Circuit Modeling and Early Detection of Thermal Runaway Triggered by Internal Short Circuits for Lithium-Ion Batteries">arXiv</a>)</p></li></ol><p>이 다섯 편은 귀하의 연구 주제인 <strong>열변색 센서, AI 기반 조기 감지, 전기차 배터리 열폭주 예측 및 화재 예방 시스템</strong>과 직접적으로 연관성이 높아, 연구 배경·선행연구·AI 알고리즘 설계 근거를 제시하는 데 특히 유용합니다.</p></body></html><!--EndFragment-->
-</body>
-</html>2022년부터 2026년까지의 **전기차(EV) 배터리 화재 및 열폭주(Thermal Runaway)** 관련 자료를 단순히 나열하는 것보다, **학계에서 인용도가 높고 영향력이 큰 논문**과 **사회적 파급력이 컸던 기사**를 구분하여 정리하는 것이 연구에 훨씬 도움이 됩니다.
+먼저 한 가지 안내해 드릴 점이 있습니다. 아직 2025년과 2026년은 오지 않았기 때문에, **2022년부터 현재(2024년)까지** 발표된 자료를 바탕으로 가장 많이 인용되고 화제가 된 논문과 기사의 핵심 흐름을 정리해 드릴게요. 
 
-아래는 **인기도(논문의 경우 인용도·게재 저널 영향력, 기사의 경우 조회수·언론 영향력 및 업계 파급력)**를 종합하여 정리한 자료입니다.
+또한, 직접 최신 데이터를 수집하고 인기순으로 정렬해 볼 수 있는 **파이썬 코드 예제**도 함께 준비했습니다.
 
 ---
 
-# Ⅰ. 가장 영향력이 큰 논문 (2022~2026)
+### 📚 1. 가장 인기 있는(인용이 많은) 논문 주제 Top 3 (2022~2024)
+학술지(Google Scholar 등)에서 'Electric Vehicle Fire', 'Lithium-ion Battery Thermal Runaway'로 검색했을 때 가장 인용수가 높은 연구 흐름입니다.
 
-| 순위 | 논문                                                                                                                     | 발행연도 | 중요도   |
-| -- | ---------------------------------------------------------------------------------------------------------------------- | ---- | ----- |
-| 1  | **A review of thermal runaway prevention and mitigation strategies for lithium-ion batteries**                         | 2022 | ★★★★★ |
-| 2  | **Thermal behaviour and thermal runaway propagation in lithium-ion battery systems – A critical review**               | 2023 | ★★★★★ |
-| 3  | **Thermal Runaway in Lithium-Ion Batteries: A Review of Mechanisms, Prediction Approaches, and Mitigation Strategies** | 2026 | ★★★★★ |
-| 4  | **Unplugging the truth: an empirical analysis of 417 fires of electric vehicles**                                      | 2026 | ★★★★★ |
-| 5  | **Thermal Behavior of Lithium- and Sodium-Ion Batteries**                                                              | 2022 | ★★★★☆ |
-| 6  | BattBee: Equivalent Circuit Modeling and Early Detection                                                               | 2025 | ★★★★☆ |
-| 7  | Deep Learning Methods for Detecting Thermal Runaway Events                                                             | 2025 | ★★★★☆ |
+1. **리튬이온 배터리의 열폭주(Thermal Runaway) 메커니즘 분석**
+   * **내용:** 배터리 내부 단락, 과충전 등으로 인해 온도가 급격히 상승하는 원인을 화학적/물리적으로 분석한 논문들입니다. (가장 인용수가 높습니다)
+2. **배터리 관리 시스템(BMS)을 활용한 화재 조기 예측 알고리즘**
+   * **내용:** 머신러닝과 AI를 활용해 배터리의 이상 징후를 화재 발생 전에 미리 감지하는 기술 연구입니다.
+3. **전기차 화재 진압 및 냉각(Cooling) 시스템 효율성 연구**
+   * **내용:** 질식소화포, 이동식 수조 등 현재 소방 기술의 한계를 분석하고 새로운 진압 방식을 제안하는 연구입니다.
 
----
+### 📰 2. 가장 화제가 된 기사 주제 Top 3 (2022~2024)
+대중과 언론에서 가장 많이 조회되고 공유된 기사들의 핵심 내용입니다.
 
-## 1위
-
-### A review of thermal runaway prevention and mitigation strategies for lithium-ion batteries (2022)
-
-저널
-
-Energy Conversion and Management: X
-
-주요 내용
-
-* 열폭주의 발생 메커니즘 정리
-* 조기감지 기술 비교
-* AI 예측기술 소개
-* BMS 한계 분석
-* 냉각기술 비교
-* 전기차 적용 사례
-
-이 논문은 현재도 가장 많이 인용되는 리뷰 논문 중 하나입니다. ([[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2590174522001337?utm_source=chatgpt.com)][1])
+1. **"지하주차장 전기차 화재, 대형 참사 막으려면?"** (사회적 불안 및 정책 관련)
+   * 밀폐된 공간에서의 화재 위험성과 건축법 개정 촉구 기사.
+2. **"물 10만 리터 쏟아부어도 안 꺼진다… 전기차 화재 진압의 딜레마"** (소방/안전 관련)
+   * 열폭주 현상으로 인해 불이 쉽게 꺼지지 않는 현상을 다룬 르포 기사.
+3. **"꿈의 배터리 '전고체', 전기차 화재의 게임 체인저 될까?"** (기술/산업 관련)
+   * 화재 위험이 적은 차세대 배터리 개발 동향을 다룬 경제/IT 기사.
 
 ---
 
-## 2위
+### 💻 3. 직접 논문을 수집하고 인기순으로 정렬하는 방법 (Python)
 
-### Thermal behaviour and thermal runaway propagation in lithium-ion battery systems (2023)
+직접 구글 스칼라(Google Scholar)에서 논문 데이터를 수집하고 **인용수(인기순)로 정렬**하는 파이썬 코드를 알려드릴게요. `scholarly`라는 라이브러리를 사용합니다.
 
-주요 내용
+*준비물: 터미널에서 `pip install scholarly` 를 입력해 라이브러리를 설치해 주세요.*
 
-* Cell-to-Cell Propagation 분석
-* 실험과 시뮬레이션 비교
-* CFD 활용
-* 냉각 시스템 설계
-* 화재 확산 메커니즘
+```python
+from scholarly import scholarly
 
-특히 ANSYS Fluent를 사용하는 연구에서 매우 많이 인용됩니다. ([[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2352152X23002918?utm_source=chatgpt.com)][2])
+def get_popular_ev_fire_papers():
+    print("🔍 'Electric Vehicle Fire' 관련 논문을 검색 중입니다...\n")
+    
+    # 1. 검색어 설정
+    search_query = scholarly.search_pubs('Electric Vehicle Fire thermal runaway')
+    
+    papers = []
+    
+    # 2. 상위 10개의 논문 데이터 수집 (시간 관계상 10개만 수집)
+    for i in range(10):
+        try:
+            paper = next(search_query)
+            title = paper['bib'].get('title', '제목 없음')
+            year = paper['bib'].get('pub_year', '연도 미상')
+            citations = paper.get('num_citations', 0) # 인용수 가져오기
+            
+            # 2022년 이후 논문만 필터링 (연도 정보가 있는 경우)
+            if str(year).isdigit() and int(year) >= 2022:
+                papers.append({'title': title, 'year': year, 'citations': citations})
+        except StopIteration:
+            break # 더 이상 검색 결과가 없으면 종료
 
----
+    # 3. 인용수(citations)를 기준으로 내림차순 정렬 (가장 인기 많은 순)
+    # lambda x: x['citations']는 정렬의 기준을 '인용수'로 하겠다는 의미입니다.
+    sorted_papers = sorted(papers, key=lambda x: x['citations'], reverse=True)
 
-## 3위
+    # 4. 결과 출력
+    print("🏆 2022년 이후 전기차 화재 관련 인기 논문 순위 (인용수 기준)")
+    for rank, p in enumerate(sorted_papers, 1):
+        print(f"{rank}위. [인용수: {p['citations']}회] ({p['year']}년) {p['title']}")
 
-### Thermal Runaway in Lithium-Ion Batteries (2026)
+# 함수 실행
+get_popular_ev_fire_papers()
+```
 
-가장 최신 리뷰 논문
-
-정리 내용
-
-* AI 기반 조기경보
-* 가스센서
-* 온도센서
-* 영상기반 감지
-* 머신러닝
-* 예측 알고리즘
-
-귀하가 진행하는 AI 연구와 매우 유사한 내용을 포함하고 있습니다. ([[MDPI](https://www.mdpi.com/2313-0105/12/3/88?utm_source=chatgpt.com)][3])
-
----
-
-## 4위
-
-### Unplugging the truth (2026)
-
-최근 가장 화제가 된 논문입니다.
-
-특징
-
-417건 실제 EV 화재 분석
-
-분석 내용
-
-* 충전 중 화재
-* 주차 중 화재
-* 충돌 후 화재
-* 배터리 제조 결함
-* 안전기준 문제
-
-실제 사고 데이터를 가장 많이 분석한 논문입니다. ([[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2405829726001686?utm_source=chatgpt.com)][4])
+**💡 코드 설명:**
+* `scholarly.search_pubs()`: 구글 스칼라에서 논문을 검색합니다.
+* `int(year) >= 2022`: 2022년 이후의 데이터만 걸러냅니다.
+* `sorted(..., key=lambda x: x['citations'], reverse=True)`: 수집된 리스트를 인용수가 높은 순서대로(내림차순) 정렬하는 핵심 코드입니다.
 
 ---
 
-## 5위
+어떠신가요? 연구의 큰 흐름을 잡는 데 도움이 되셨나요? 
+혹시 코드를 실행하다가 오류가 나거나, 뉴스 기사를 크롤링하는 방법도 알고 싶으시다면 언제든 편하게 질문해 주세요. 훌륭한 연구 결과가 나오기를 응원합니다! 😊
 
-### Thermal Behavior of Lithium- and Sodium-Ion Batteries
+Claude Sonnet 4.6 (x1)
+# 요청에 대한 솔직한 답변
 
-주요 내용
+## ⚠️ 제가 할 수 없는 것
 
-* 발열 메커니즘
-* 화학반응
-* 열폭주 과정
-* 배터리 종류별 위험성
+저는 **실시간 인터넷 검색이나 데이터 수집 기능이 없습니다.**
 
-특히
-
-NMC
-
-NCA
-
-LFP
-
-배터리 비교가 잘 되어 있습니다. ([[ACS Publications](https://pubs.acs.org/doi/10.1021/acs.energyfuels.2c02889?utm_source=chatgpt.com)][5])
+따라서 다음이 불가능합니다:
+- ❌ 2022~2026년 논문/기사 실시간 수집
+- ❌ 인기순 실시간 랭킹 제공
+- ❌ 2024년 이후 최신 정보 제공 (학습 데이터 한계)
 
 ---
 
-# AI 관련 논문
+## ✅ 대신 제가 도와드릴 수 있는 것
 
-## BattBee (2025)
+### 📚 직접 논문/기사를 찾는 방법 안내
 
-내용
+| 플랫폼 | 특징 | 링크 |
+|--------|------|------|
+| **Google Scholar** | 학술논문 검색, 인용수 확인 가능 | scholar.google.com |
+| **RISS** | 국내 학술논문 전문 | riss.kr |
+| **KISS** | 국내 학술지 검색 | kiss.kstudy.com |
+| **ScienceDirect** | 해외 저널 | sciencedirect.com |
+| **DBpia** | 국내 논문 | dbpia.co.kr |
 
-AI 모델을 이용한
+### 🔍 추천 검색 키워드
+```
+- "전기차 화재" OR "EV fire"
+- "배터리 열폭주" OR "thermal runaway"
+- "리튬이온 배터리 화재"
+- "Electric Vehicle fire safety"
+```
 
-* 내부 단락 감지
-* 열폭주 예측
-* Equivalent Circuit Model
-
-귀하의 연구와 가장 유사한 최신 연구입니다. ([[arXiv](https://arxiv.org/abs/2506.13577?utm_source=chatgpt.com)][6])
-
----
-
-## Deep Learning Methods (2025)
-
-내용
-
-카메라 영상
-
-열화상
-
-RGB 영상
-
-딥러닝을 이용하여
-
-배터리 이상을 검출합니다. ([[arXiv](https://arxiv.org/abs/2504.08632?utm_source=chatgpt.com)][7])
+### 📊 인기순 정렬 방법
+> Google Scholar 기준
+> 1. 검색 후 **"인용 횟수"** 기준 정렬
+> 2. 기간 필터 **2022~2026** 설정
+> 3. 인용수가 높을수록 영향력 있는 논문
 
 ---
 
-# Ⅱ. 가장 유명했던 기사 (2022~2026)
+## 💡 혹시 제가 도울 수 있는 부분
 
-| 순위 | 기사                                                                | 영향도   |
-| -- | ----------------------------------------------------------------- | ----- |
-| 1  | Wired - EV Battery Fires Explained                                | ★★★★★ |
-| 2  | The Guardian - Fire experts kept awake over lithium-ion batteries | ★★★★★ |
-| 3  | The Times - Firefighters raise alert over battery fires           | ★★★★★ |
-| 4  | Tesla 화재 소송 기사                                                    | ★★★★☆ |
+- 전기차 화재 **개념/원인 설명**
+- 논문 **읽는 방법** 안내
+- 찾은 논문의 **내용 이해** 도움
+- **연구 방향** 제안
 
 ---
 
-## Wired
+> 찾으신 논문이나 기사가 있다면 가져오세요! 내용 분석과 이해를 도와드릴게요 😊
+>
+> GPT-5.5(x2)
+>
+> 가능합니다. 다만 먼저 한 가지를 명확히 해야 합니다.  
+제가 지금 실시간 웹 검색이나 Google Scholar/Scopus 조회를 직접 수행할 수는 없기 때문에, **2022~2026년 논문·기사의 최신 조회수, 인용 수, 공유 수를 실제로 수집해 “정확한 인기 순위”로 확정**하기는 어렵습니다. 특히 2025~2026년 자료는 데이터베이스별로 계속 변합니다.
 
-가장 많이 공유된 기사 중 하나입니다.
-
-주요 내용
-
-* 왜 EV 화재가 어려운가
-* 열폭주
-* 대응법
-* 소방 대응
-
-([[WIRED](https://www.wired.com/story/ev-battery-fires-explained?utm_source=chatgpt.com)][8])
+대신 아래처럼 정리해드릴 수 있습니다.
 
 ---
 
-## The Guardian
+## 1. “인기” 기준 제안
 
-2026년
+전기차 화재 관련 자료의 인기도는 보통 다음 지표로 판단합니다.
 
-리튬이온 배터리 화재 증가
+### 논문
+1. **Google Scholar 인용 수**
+2. **Scopus / Web of Science 인용 수**
+3. **Altmetric 점수**
+4. 다운로드 수 또는 조회 수
 
-전문가 인터뷰
+### 기사
+1. 언론사 트래픽 또는 조회 수
+2. 공유 수
+3. 검색 노출 빈도
+4. 다른 기사에서 재인용된 횟수
+5. 사회적 파급력, 예: 정부 조사, 리콜, 규제 논의로 연결 여부
 
-정부 규제 필요성
+따라서 실무적으로는 다음과 같은 점수식을 쓸 수 있습니다.
 
-([[가디언](https://www.theguardian.com/technology/2026/mar/20/fire-experts-losing-sleep-over-growing-hazard-of-lithium-ion-batteries?utm_source=chatgpt.com)][9])
-
----
-
-## The Times
-
-2023년
-
-영국에서
-
-배터리 화재가
-
-70%
-
-증가
-
-([[The Times](https://www.thetimes.co.uk/article/firefighters-raise-alarm-over-rise-in-battery-fires-jgp8lddfd?utm_source=chatgpt.com)][10])
+```text
+인기도 점수 = 논문 인용 수 × 0.6 
+           + 기사/미디어 언급 수 × 0.3 
+           + 사회적 파급도 점수 × 0.1
+```
 
 ---
 
-## Tesla 화재 소송
+## 2. 2022~2026년 전기차 화재 관련 주요 이슈, 기사 중심 인기 순위 예시
 
-2026년
+아래 순위는 실제 조회 수 기반 확정 순위가 아니라, **국제적 보도량과 사회적 파급력 기준의 예비 순위**입니다.
 
-충돌 후
-
-열폭주 발생
-
-대규모 소송
-
-([[뉴욕 포스트](https://nypost.com/2026/05/16/us-news/tesla-battery-fire-allegedly-left-long-island-man-disfigured-with-catastrophic-burns/?utm_source=chatgpt.com)][11])
-
----
-
-# Ⅲ. 귀하의 연구와 가장 관련성이 높은 논문 TOP 5
-
-현재 진행 중인 **열변색 패치 + AI 기반 전기차 배터리 열폭주 조기 감지 시스템**과의 관련성을 기준으로 추천하면 다음과 같습니다.
-
-| 순위 | 논문                                              | 관련성   |
-| -- | ----------------------------------------------- | ----- |
-| 1  | Thermal Runaway in Lithium-Ion Batteries (2026) | ★★★★★ |
-| 2  | BattBee (2025)                                  | ★★★★★ |
-| 3  | A review of thermal runaway prevention (2022)   | ★★★★★ |
-| 4  | Thermal behaviour and propagation (2023)        | ★★★★★ |
-| 5  | Unplugging the truth (417 Fires)                | ★★★★★ |
-
-## 경진대회·논문 작성 시 특히 추천하는 핵심 참고문헌
-
-연구의 신뢰성과 최신성을 높이기 위해 다음 다섯 편을 우선 참고하는 것을 권장드립니다.
-
-1. **A review of thermal runaway prevention and mitigation strategies for lithium-ion batteries** (2022) ([[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2590174522001337?utm_source=chatgpt.com)][1])
-2. **Thermal behaviour and thermal runaway propagation in lithium-ion battery systems – A critical review** (2023) ([[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2352152X23002918?utm_source=chatgpt.com)][2])
-3. **Thermal Runaway in Lithium-Ion Batteries: A Review of Mechanisms, Prediction Approaches, and Mitigation Strategies** (2026) ([[MDPI](https://www.mdpi.com/2313-0105/12/3/88?utm_source=chatgpt.com)][3])
-4. **Unplugging the truth: an empirical analysis of 417 fires of electric vehicles and the limitations of battery safety regulations** (2026) ([[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2405829726001686?utm_source=chatgpt.com)][4])
-5. **BattBee: Equivalent Circuit Modeling and Early Detection of Thermal Runaway Triggered by Internal Short Circuits for Lithium-Ion Batteries** (2025) ([[arXiv](https://arxiv.org/abs/2506.13577?utm_source=chatgpt.com)][6])
-
-이 다섯 편은 귀하의 연구 주제인 **열변색 센서, AI 기반 조기 감지, 전기차 배터리 열폭주 예측 및 화재 예방 시스템**과 직접적으로 연관성이 높아, 연구 배경·선행연구·AI 알고리즘 설계 근거를 제시하는 데 특히 유용합니다.
-
-[1]: https://www.sciencedirect.com/science/article/pii/S2590174522001337?utm_source=chatgpt.com "A review of thermal runaway prevention and mitigation strategies for lithium-ion batteries - ScienceDirect"
-[2]: https://www.sciencedirect.com/science/article/pii/S2352152X23002918?utm_source=chatgpt.com "Thermal behaviour and thermal runaway propagation in lithium-ion battery systems – A critical review - ScienceDirect"
-[3]: https://www.mdpi.com/2313-0105/12/3/88?utm_source=chatgpt.com "Thermal Runaway in Lithium-Ion Batteries: A Review of Mechanisms, Prediction Approaches, and Mitigation Strategies"
-[4]: https://www.sciencedirect.com/science/article/pii/S2405829726001686?utm_source=chatgpt.com "Unplugging the truth: an empirical analysis of 417 fires of electric vehicles and the limitations of battery safety regulations - ScienceDirect"
-[5]: https://pubs.acs.org/doi/10.1021/acs.energyfuels.2c02889?utm_source=chatgpt.com "Thermal Behavior of Lithium- and Sodium-Ion Batteries: A Review on Heat Generation, Battery Degradation, Thermal Runway – Perspective and Future Directions | Energy & Fuels"
-[6]: https://arxiv.org/abs/2506.13577?utm_source=chatgpt.com "BattBee: Equivalent Circuit Modeling and Early Detection of Thermal Runaway Triggered by Internal Short Circuits for Lithium-Ion Batteries"
-[7]: https://arxiv.org/abs/2504.08632?utm_source=chatgpt.com "Deep Learning Methods for Detecting Thermal Runaway Events in Battery Production Lines"
-[8]: https://www.wired.com/story/ev-battery-fires-explained?utm_source=chatgpt.com "How Electric-Vehicle Battery Fires Happen-and How You Should React"
-[9]: https://www.theguardian.com/technology/2026/mar/20/fire-experts-losing-sleep-over-growing-hazard-of-lithium-ion-batteries?utm_source=chatgpt.com "Fire experts 'kept awake' over growing hazard of lithium-ion batteries"
-[10]: https://www.thetimes.co.uk/article/firefighters-raise-alarm-over-rise-in-battery-fires-jgp8lddfd?utm_source=chatgpt.com "Firefighters raise alert over alarming rise in battery fires"
-[11]: https://nypost.com/2026/05/16/us-news/tesla-battery-fire-allegedly-left-long-island-man-disfigured-with-catastrophic-burns/?utm_source=chatgpt.com "LI man blames 'defective' Tesla design for fire that left him with 'catastrophic' burns"
-
-**gemini:**
-
-2022년부터 2026년까지 대중과 학계에서 가장 뜨겁게 논의되고 관심을 받았던 **전기차 배터리 화재 관련 핵심 이슈와 연구 논문 정보**를 대중적 파급력 및 인기도(사회적 파장, 인용 수, 언론 보도 빈도)를 기준으로 정리해 드립니다.
+| 순위 | 연도 | 주제 | 유형 | 인기/파급 이유 |
+|---|---:|---|---|---|
+| 1 | 2024 | 인천 청라 아파트 지하주차장 전기차 화재 | 기사 | 한국에서 전기차 지하주차장 안전 논란을 크게 확산시킨 사건 |
+| 2 | 2023 | 네덜란드 인근 자동차 운반선 화재, Fremantle Highway | 기사 | 선박에 실린 전기차가 화재 원인인지 논란이 커짐 |
+| 3 | 2022 | 허리케인 Ian 이후 침수 전기차 배터리 재발화 문제 | 기사/보고서 | 침수된 EV 배터리의 열폭주와 재점화 위험이 크게 보도됨 |
+| 4 | 2023 | 영국 Luton Airport 주차장 화재와 EV 오정보 논란 | 기사 | 실제 원인과 별개로 전기차 화재 오해가 대중적으로 확산 |
+| 5 | 2022~2024 | Tesla 차량 화재 및 충돌 후 배터리 화재 보도 | 기사 | 브랜드 인지도 때문에 반복적으로 높은 관심 |
+| 6 | 2023~2024 | 전기버스, 전기트럭 화재 및 차고지 안전 문제 | 기사/보고서 | 대형 배터리 차량의 화재 대응 문제가 부각 |
+| 7 | 2024~2026 | 지하주차장 전기차 충전시설 규제 논의 | 기사/정책 | 화재 이후 충전 제한, 스프링클러, 격리 공간 논의 증가 |
+| 8 | 2022~2026 | 리튬이온 배터리 열폭주 실험 연구 | 논문 | 전기차 화재 원인 분석의 핵심 연구 분야 |
+| 9 | 2022~2026 | 전기차 화재 진압 방법 및 소화수 사용량 연구 | 논문/보고서 | 소방 대응 매뉴얼과 직접 연결됨 |
+| 10 | 2022~2026 | 전고체 배터리와 화재 안전성 연구 | 논문 | 차세대 배터리 안전성 때문에 관심 증가 |
 
 ---
 
-## 1위: 인천 청라 아파트 지하주차장 전기차 연쇄 화재 사고 (2024년)
+## 3. 논문 검색 시 우선 수집할 키워드
 
-* **구분:** 뉴스 / 사회적 이슈 (압도적 1위)
-* **주요 내용:** 2024년 8월, 인천 청라의 한 아파트 지하주차장에 주차되어 있던 벤츠 전기차(파라시스 배터리 탑재)에서 시작된 화재가 차량 880여 대에 피해를 입히고 단전·단수를 유발한 대형 참사입니다.
-* **인기/파급력 이유:** 전기차 화재 공포증(**'EV 포비아'**)을 전국적으로 확산시킨 결정적 사건입니다. 이후 아파트 지하주차장 전기차 출입 금지 논란, 배터리 제조사 공개 의무화, 충전율 90% 제한 등 **정부의 강력한 전기차 안전 대책 수립의 도화선**이 되었습니다.
+논문을 모을 때는 아래 키워드를 조합하면 좋습니다.
 
-## 2위: 배터리 '열폭주(Thermal Runaway)' 메커니즘 및 예측 연구 (2022~2025년)
+```text
+electric vehicle fire
+EV fire safety
+lithium-ion battery thermal runaway
+battery electric vehicle fire suppression
+electric vehicle battery fire propagation
+EV fire parking garage
+electric vehicle fire extinguishing
+thermal runaway propagation in EV batteries
+lithium-ion battery fire toxicity
+electric vehicle post-crash fire
+```
 
-* **구분:** 학술 논문 / 기술 뉴스
-* **주요 내용:** 리튬 이온 배터리가 물리적 충격, 과충전, 내부 단락 등으로 인해 제어할 수 없이 온도가 상승($1000^\circ\text{C}$ 이상)하며 폭발하는 **열폭주** 현상을 분석하고, 이를 조기에 감지(오프가스 검출 등)하는 연구입니다.
-* **인기/파급력 이유:** 학계 및 산업계에서 가장 많이 인용되는 주제입니다. 불이 나면 순식간에 번지는 전기차 화재의 특성상 "왜 발생하는가"와 "어떻게 미리 알 수 있는가"에 대한 근본적 해결책을 다루기 때문에 완성차 및 배터리 대기업들의 집중적인 투자를 받았습니다.
+한국어 키워드는 다음과 같습니다.
 
-## 3위: 주차 및 충전 중 화재 통계와 비가동 시간의 위험성 분석 (2025~2026년 최근)
-
-* **구분:** 학술 논문 / 통계 보고서 (한국화재보험협회, 자동차안전학회 등)
-* **주요 내용:** 최근 데이터에 따르면 전기차 화재는 주행 중뿐만 아니라 **'주차 중(약 42.6%)' 및 '충전 중(약 25.7%)'** 등 비가동 시간 상태에서의 발화 비율이 매우 높다는 분석입니다.
-* **인기/파급력 이유:** 과거에는 "충돌해야 불이 난다"고 생각했으나, 가만히 세워둔 차량이나 충전 중인 차량에서도 배터리 결함 및 열적 불안정성으로 불이 날 수 있다는 사실이 통계로 증명되면서 시민들의 일상적 불안감을 자극해 높은 조회수를 기록했습니다.
-
-## 4위: 전기차 화재 진압 장비 및 인프라 개선 연구 (2023~2024년)
-
-* **구분:** 뉴스 / 소방 방재 학술지
-* **주요 내용:** 배터리팩이 하부에 밀폐되어 있어 일반적인 물 뿌리기로는 진압이 불가능하다는 점을 지적하며 질식소화포, 이동식 수조, 전용 하부 주수 장비 도입에 관한 연구 및 보도입니다.
-* **인기/파급력 이유:** 실질적인 방재 대책에 대한 갈증 때문입니다. 소방청의 가이드라인 제정과 소방관들의 실전 진압 영상 등이 유튜브나 뉴스에서 수백만 회의 조회수를 기록하며 큰 관심을 받았습니다.
-
-## 5위: 전고체 배터리(Solid-State) 등 차세대 배터리의 안전성 검증 (2024~2026년)
-
-* **구분:** 학술 논문 / 산업 뉴스
-* **주요 내용:** 액체 전해질 대신 고체 전해질을 사용하여 화재 위험성을 획기적으로 낮춘 전고체 배터리 및 황화물계 전해질의 열적 안정성을 평가하는 연구입니다.
-* **인기/파급력 이유:** "결국 배터리 소재가 바뀌어야 전기차 화재가 해결된다"는 대중적 기대감과 맞물려 상용화 시점(2027~2030년 목표)과 관련된 기사나 테크 논문들이 주식 시장 및 산업계에서 가장 뜨거운 인기를 끌었습니다.
-
----
-
-### 💡 요약 및 트렌드 변화
-
-* **2022~2023년:** 주로 화재 발생 자체에 대한 호기심과 '열폭주 현상'의 이론적 연구가 중심이었습니다.
-* **2024년:** 청라 사고를 기점으로 '지하 공간의 위험성'과 '배터리 제조사 투명성'이라는 사회적 이슈가 정점을 찍었습니다.
-* **2025~2026년 현재:** 예방을 위한 스마트 충전기(화재 예방형), 주차 중 실시간 배터리 상태(BMS) 모니터링 기술, 그리고 근본적 방화 소재 적용에 관한 실용 연구가 대세를 이루고 있습니다.
-
-**claude:**
-
-전기차 배터리 화재 관련 기사와 논문을 조사해서 정리해드리겠습니다.# 전기차 배터리 화재 관련 자료 정리 (2022~2026)
-
-수집한 자료를 **뉴스/기사**와 **논문/연구**로 나누고, 각각 사회적 파급력(피해 규모, 언론 노출도, 후속 보도량, 정책 영향)과 학술적 파급력(인용도, 게재 학술지 영향력)을 기준으로 인기순으로 정리했습니다.
-
-## 📰 뉴스·기사 (인기순)
-
-### 1위. 인천 청라 아파트 지하주차장 벤츠 전기차 화재 (2024.8.1)
-단일 사건으로는 압도적 1위입니다. 인천 청라국제도시 아파트 지하주차장에서 충전 중이던 벤츠 전기차 화재로 차량 87대가 전소되고 783대가 그을렸으며, 주민 23명이 연기를 마셔 병원으로 이송됐습니다. 해당 차량은 59시간가량 정차한 상태에서 불이 났고, 진압에만 5시간 39분이 소요됐습니다.
-- **후속 파장**: 벤츠코리아는 사고 후 EQE 전 차종에 중국 파라시스 배터리가 탑재된 사실을 공개했고, 이에 EQE 차주들이 손해배상 소송을 제기했습니다. 경찰은 4개월 수사 끝에 "원인 불명" 결론을 냈고, 아파트 관리소장 등은 과실치상 혐의로 송치됐습니다. 2025년 11월에는 벤츠 회장 방한 행사장에서 피해주민들이 항의 시위를 벌이는 등 1년 넘게 이어진 장기 이슈였습니다.
-- **정책 영향**: 이 사고를 계기로 2024년 9월 '전기차 화재 안전관리 대책', 2025년 2월 '지하주차장 전기차 화재' 대책이 정부 합동으로 발표됐습니다.
-
-### 2위. 화성 아리셀 리튬전지 공장 화재 (2024.6.24)
-경기 화성시 아리셀 공장 3동 2층에서 발생한 화재로, 23명이 사망한 국내 최악의 산업재해급 화재입니다. 배터리(EV용은 아니지만 리튬배터리 안전 이슈 전반)에 대한 사회적 경각심을 극대화시킨 사건으로, 대표이사 등이 중대재해처벌법 위반으로 기소되며 재판까지 이어졌습니다.
-
-### 3위. 연희동 아이오닉5·BYD 씨라이언7 동시 화재 (2026.2.7)
-서울 서대문구 단독주택 주차장에서 아이오닉5와 BYD 씨라이언7 두 대가 동시에 전소된 사고로, 최신 사건이자 국산·중국산 배터리 신뢰도 논쟁을 재점화했습니다. 최종적으로 두 차량 배터리 모두 이상이 없었고, 원인은 저용량 멀티탭 사용으로 결론났습니다.
-
-### 4위. 소방청 '생활 속 리튬이온배터리 화재' 통계 및 대책 발표 (2025.8)
-2025년 5월 49건→6월 51건→7월 67건으로 배터리 화재가 급증하자 소방청이 전동킥보드·보조배터리 포함 종합 안전대책을 발표했습니다. 마포 아파트 사망 사고 등 구체적 인명피해 사례가 다수 포함돼 화제성이 높았습니다.
-
-### 5위. 서울대·포스텍·삼성SDI 열폭주 메커니즘 규명 (2024.8, 국제학술지 표지 논문)
-서울대 임종우 교수팀, 포스텍 김원배 교수팀, 삼성SDI 연구팀이 '어드밴스드 머티리얼즈' 8월 1일자 표지 논문으로 열폭주 메커니즘을 규명했습니다. 음극에서 발생한 에틸렌 기체가 양극의 산소 방출을 유도하고 이것이 다시 음극 에틸렌 발생을 촉진하는 '자가증폭루프'가 핵심 메커니즘임을 밝혔고, 음극 표면 알루미나 코팅으로 이를 억제할 수 있음을 보였습니다. 청라 화재 직후 발표되어 언론에도 크게 보도됐습니다.
-
-### 6위. 수원 아파트 벤츠 EQA 화재 (2025.10)
-경기 수원 아파트 지하주차장에서 충전 중이던 벤츠 EQA-250(국산 SK온 배터리 탑재)에서 화재가 발생, 벤츠 소형 SUV 첫 화재 사례로 보도됐습니다.
-
-### 7위. 울산 아이오닉5 충돌 화재 (2024.1)
-교각 충돌 후 거의 폭발에 가까운 화재가 37분 만에 진압됐으나 운전자 1명이 사망한 사고로, 국내 전기차 화재 사망 첫 실증 사례로 자주 인용됩니다.
-
-### 8위. 중국 리샹·샤오미·니오 등 연쇄 화재 (2025.9~10)
-리샹 MEGA(10.23, 주행 중 하부 발화), 샤오미 SU7(10.13, 고속 주행 중 충돌 후 화재), 니오 ET7(10.13, 원인불명 승객석 화재), BYD Seal 06(9.14, 연기 후 화재) 등 중국 전기차 업체들의 연쇄 화재가 짧은 기간 집중 보도됐습니다.
+```text
+전기차 화재
+전기차 배터리 열폭주
+리튬이온 배터리 화재
+전기차 화재 진압
+전기차 지하주차장 화재
+전기차 충전 중 화재
+전기차 배터리 재발화
+전기차 화재 안전기준
+```
 
 ---
 
-## 📚 논문·연구자료 (영향력순)
+## 4. 논문 정리 표 템플릿
 
-### 국제 학술지
+실제로 수집할 때는 아래와 같은 표로 정리하면 좋습니다.
 
-1. **자가증폭루프 열폭주 메커니즘 규명** — *Advanced Materials* (2024, 표지논문)
-   서울대·포스텍·삼성SDI 공동연구. 국내 화재 사고와 직결된 최신·최고 영향력 연구.
-
-2. **Advances in the Battery Thermal Management Systems of EVs** — *Batteries (MDPI)*, 2025
-   2022~2024년 발표된 열폭주 방지·억제 관련 주요 리뷰논문(Shahid & Agelin-Chaab 2022, Yang et al. 2023, Chavan et al. 2023 등)을 종합한 최신 리뷰입니다.
-
-3. **Insight Into Puncture-Induced Thermal Runaway...** — *Battery Energy (Wiley)*, 2025
-   못 관통(nail penetration) 실험을 통한 열폭주 연구로, 2023년 폭스바겐 ID.4X 충돌화재(사망 4명), 2022년 테슬라 화재(대만 유명인 사고) 등을 실제 사례로 인용합니다.
-
-4. **Research on hazard characteristics of thermal runaway fire in EV battery pack** — *Scientific Reports*, 2026
-   배터리 팩 열폭주 화재의 열복사 예측 모델을 수립해 안전거리 산정 기준을 제시한 최신 연구입니다.
-
-5. **Early warning method for charging thermal runaway based on charging network** — *Scientific Reports*, 2025
-   충전 중 열폭주 조기경보 알고리즘 연구.
-
-6. **Research and analysis of EV fire accidents and review of Li-ion battery thermal runaway mechanism** — *IJNDES*, 2022
-   과거 6년간 전기차 화재 사고를 시간·차종·동력원별로 통계 분석하고 열폭주 3대 원인과 메커니즘을 정리한 초기 리뷰논문입니다.
-
-7. **Thermal runaway and fire of EV lithium-ion battery and contamination of infrastructure facility** — *Renewable and Sustainable Energy Reviews*, 2022
-   피인용 다수의 기반 논문(관련 후속 연구들이 다수 인용).
-
-### 국내 학술자료
-
-8. **전기자동차 배터리 화재원인 및 대응방안에 관한 연구** — 대한전기학회 학술대회 논문집, 2023 (DBpia)
-   EV 배터리 화재의 원인과 대응방안을 다룬 국내 학회 논문입니다.
-
-9. **전기자동차 화재 대응을 위한 입법 동향 및 향후 과제** — 국회예산정책처, 2025.11
-   제22대 국회에 발의된 전기차 화재 안전 관련 법안 48건을 전기차·충전시설·화재대응 부문으로 분류·분석한 정책보고서입니다. 배터리 안전 인증제, 지하주차장 스프링클러 의무화 등 실질 정책 논의의 근거자료로 활용도가 높습니다.
+| 순위 | 연도 | 제목 | 저자 | 학술지/기관 | 주제 | 인기도 지표 |
+|---|---:|---|---|---|---|---|
+| 1 | 2022 | Electric vehicle fire safety 관련 논문 | 저자명 | 저널명 | EV 화재 안전 | 인용 수 기준 |
+| 2 | 2023 | Lithium-ion battery thermal runaway 관련 논문 | 저자명 | 저널명 | 열폭주 | 인용 수 기준 |
+| 3 | 2023 | Fire suppression of EV battery fires 관련 논문 | 저자명 | 저널명 | 화재 진압 | 인용 수 기준 |
+| 4 | 2024 | EV fires in parking garages 관련 논문 | 저자명 | 저널명 | 지하주차장 화재 | 인용 수 기준 |
+| 5 | 2025 | EV battery fire risk assessment 관련 논문 | 저자명 | 저널명 | 위험성 평가 | 인용 수 기준 |
 
 ---
 
-## 📊 참고 통계 (배경 자료)
-소방청 국가화재정보센터에 따르면 전기차 화재는 2021년 24건 → 2022년 43건 → 2023년 72건으로 증가했고, 운행 중 화재가 48.9%로 가장 많았습니다. 2024년에는 화재 신고 120건(전년 대비 18%↑)이 발생했으며 배터리 결함이 65%를 차지했다는 통계도 있으나, 이 수치는 출처가 불분명한 이차 가공 자료이니 인용 시 원출처 확인이 필요합니다.
+## 5. 자료 수집 방법
+
+### 논문 수집 경로
+- Google Scholar
+- Scopus
+- Web of Science
+- ScienceDirect
+- SpringerLink
+- IEEE Xplore
+- MDPI
+- Elsevier
+- ResearchGate
+- NIST, NFPA, UL Solutions 보고서
+
+### 기사 수집 경로
+- Reuters
+- BBC
+- CNN
+- AP News
+- The Guardian
+- New York Times
+- 국내: 연합뉴스, KBS, MBC, SBS, 한겨레, 중앙일보, 조선일보, 매일경제 등
 
 ---
 
-**참고**: "인기순"은 정량적 조회수 데이터가 아닌 사회적 파급력(피해 규모·후속 보도·정책 영향)과 학술적 영향력(게재지·인용 빈도)을 종합 판단한 순위입니다. 특정 주제(예: 배터리 화재 소송, 국내 vs 중국산 배터리 안전성 비교, 소화설비 기술 등)로 더 깊이 파고들고 싶으시면 말씀해 주세요.
+## 6. 엑셀 또는 CSV 정리 양식
 
+아래 형태로 정리하면 인기도 순위를 계산하기 쉽습니다.
 
-여기까지 같은 질문을 바탕으로 대답한 3 모델들의 답변이다.
+```csv
+구분,연도,제목,출처,저자/기자,URL,주제,인용수,조회수,공유수,언급횟수,인기도점수
+논문,2023,EV battery thermal runaway study,Journal Name,Author,URL,열폭주,120,0,0,30,81
+기사,2024,인천 전기차 화재 관련 기사,언론사,기자명,URL,지하주차장 화재,0,500000,10000,200,높음
+```
 
-위에서 볼 수 있듯 평소 사용하는 chat gpt 의 답변을 보면 밑의 두 모델과 달리 평소의 답변을 바탕으로 준비하고 있는 경진대회의 연관성과 중요한 정보들을 기입, 또는 표시를 하며 정보를 표시하는 것을 알 수 있다.
-LLM은 확률적 생성 방식을 사용하여 문장을 생성한다. 즉 저장된 정답이 아닌 학습한 방대한 데이터를 바탕으로 다음에 올 단어가 무엇일 가능성이 높은지를 확률적으로 계산하여 문장을 만든다.
+---
 
-예를 들어 "전기차 배터리 열폭주"에서 "고온", "발생", "화재", 등등 다음ㅇ[ 나올 단어 또는 문장으로 가장 적절한 후보들을 확률로 계산하여 가장 자연스러운 답변을 생성하는 것이다. 이러한 특성으로 정확한 정보를 찾는 것이 아닌 모델이 실제로 존재하지 않거나 근거가 없는 내용을 생성하는 현상이 환각(Hallucination)현상이다. 
+## 7. Python으로 인기도 순위 정렬 예시
 
-고로 같은 질문을 받은 현재 3개의 다른 모델로 얻은 결과들 중, 가장 사용 빈도가 많은 Chat gpt가 가장 자연스러운 정보 전달을 이루어 냈다고 볼 수 있다.
+자료를 CSV로 모은 뒤 다음 코드로 정렬할 수 있습니다.
+
+```python
+import pandas as pd
+
+# CSV 파일 불러오기
+df = pd.read_csv("ev_fire_sources_2022_2026.csv")
+
+# 결측값을 0으로 처리
+df[["인용수", "조회수", "공유수", "언급횟수"]] = df[["인용수", "조회수", "공유수", "언급횟수"]].fillna(0)
+
+# 인기도 점수 계산
+df["인기도점수"] = (
+    df["인용수"] * 0.6 +
+    df["조회수"] * 0.0001 +
+    df["공유수"] * 0.01 +
+    df["언급횟수"] * 0.3
+)
+
+# 인기도순 정렬
+ranked_df = df.sort_values(by="인기도점수", ascending=False)
+
+# 결과 출력
+print(ranked_df[["구분", "연도", "제목", "출처", "주제", "인기도점수"]])
+```
+
+이 코드는 논문 인용 수, 기사 조회 수, 공유 수, 언급 횟수를 이용해 간단한 인기도 점수를 계산합니다.
+
+---
+
+## 8. 결론
+
+현재 단계에서 가장 파급력이 컸던 전기차 화재 관련 이슈는 대략 다음 순서로 볼 수 있습니다.
+
+1. **2024년 인천 청라 아파트 전기차 화재**
+2. **2023년 Fremantle Highway 자동차 운반선 화재**
+3. **2022년 허리케인 Ian 이후 침수 전기차 재발화 문제**
+4. **2023년 Luton Airport 주차장 화재와 EV 오정보 논란**
+5. **2022~2024년 Tesla 등 주요 전기차 브랜드 화재 보도**
+6. **전기차 배터리 열폭주 관련 논문**
+7. **전기차 화재 진압 및 재발화 대응 연구**
+8. **지하주차장 전기차 화재 안전 연구**
+9. **전기버스·전기트럭 화재 연구**
+10. **전고체 배터리 안전성 연구**
+
+정확한 순위를 만들려면 각 자료의 **제목, URL, 인용 수, 조회 수 또는 기사 언급 수**가 필요합니다.  
+자료 목록이나 CSV 파일을 주시면 제가 바로 **인기도 점수 기준으로 정렬해서 최종 순위표**를 만들어드릴 수 있습니다. 잘 접근하고 계십니다. 이 주제는 논문과 사회적 이슈가 함께 연결되어 있어서 정리 가치가 큽니다.
